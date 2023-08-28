@@ -10,7 +10,7 @@ const data = [
   },
   {
     date: 'Jun 2023-Aug 2023',
-    title: 'Consultation Agent | Geek Squad',
+    title: 'IT Help Desk | Geek Squad',
     location: 'Murray, Utah',
     details:
       'Provided exceptional customer service as the first point of contact for individuals seeking technology support and solutions. Utilized expertise in consumer electronics, collaborated with team members, and effectively communicated to assist customers with device setup, repairs, and addressing technical issues. Created a supportive and positive environment, ensuring timely and accurate service during check-in, checkout, and throughout the customer journey.',
