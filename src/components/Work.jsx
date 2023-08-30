@@ -6,7 +6,7 @@ const data = [
     title: 'Teaching Assistant | University of Utah',
     location: 'Salt Lake City, Utah',
     details:
-      'I effectively supported the instruction of CS 3500\n\n Software Practices 1 as a teaching assistant, guiding students through key programming concepts, debugging techniques, and software development best practices. Collaborated with the instructor to facilitate engaging discussions, provide personalized assistance during office hours, and evaluate assignments, fostering a dynamic learning environment for aspiring computer scientists.',
+      'I effectively supported the instruction of CS 3500 Software Practices 1 as a teaching assistant, guiding students through key programming concepts, debugging techniques, and software development best practices. Collaborated with the instructor to facilitate engaging discussions, provide personalized assistance during office hours, and evaluate assignments, fostering a dynamic learning environment for aspiring computer scientists.',
   },
   {
     date: 'Jun 2023-Aug 2023',
@@ -20,7 +20,7 @@ const data = [
     title: 'Undergraduate Research Assistant | University of Utah',
     location: 'Salt Lake City, Utah',
     details:
-      'Researched new Natural Language Processing (NLP) techniques with tools like ChatGPT specifically with converting chart question answers to natural language inferences. Used Python and libraries like Pandas to process and clean data.',
+      'Conducted research in the realm of Natural Language Processing (NLP), focusing on the creation of a dataset for Natural Language Inference (NLI) centered around Charts. Used prompt engineering transforming Chart QA inquiries into refined NLI statements through ChatGPT. Employed Python and harnessed libraries such as Pandas to process and curate the dataset.',
   },
   {
     date: 'Nov 2018-Mar 2021',

@@ -1,22 +1,23 @@
 import { useState } from 'react';
 import ProjectItem from './ProjectItem';
-import snakeGame from '../assets/SnakeGame.png';
-import timeManagementApp from '../assets/TimeManagement.png';
-import spriteEditor from '../assets/SpriteEditor.png';
-import spreadsheet from '../assets/SpreadsheetApp.png';
 import ProjectModal from './ProjectModal';
-
+import images from '../assets/images';
+import snakeGame from '../assets/SnakeProject/SnakeGame.png';
+// import timeManagementApp from '../assets/TimeManagement.png';
+// import spriteEditor from '../assets/SpriteEditor.png';
+// import spreadsheet from '../assets/SpreadsheetApp.png';
+// console.log(dataa);
 // Random
-import snake1 from '../assets/SnakeProject/wholeScreen.png';
-import snake2 from '../assets/SnakeProject/server.png';
-import snake3 from '../assets/SnakeProject/deadSnake.png';
+// import snake1 from '../assets/SnakeProject/wholeScreen.png';
+// import snake2 from '../assets/SnakeProject/server.png';
+// import snake3 from '../assets/SnakeProject/deadSnake.png';
 
 const data = [
   {
-    img: spriteEditor,
+    img: images.spriteEditorImages[0],
     title: 'Sprite Editor App',
     details: 'C++ | QT Creator',
-    images: [snake1, snake2, snake3],
+    images: images.spriteEditorImages,
     description: [
       'Allows users to load, save and edit the sprite pixel art while also providing them with an assortment of drawing tools.',
       'Also allows them to preview their sprite animations and configure different sizes.',
@@ -25,10 +26,10 @@ const data = [
     // 'Allows users to load, save and edit the sprite pixel art while also providing them with an assortment of drawing tools. Also allows them to preview their sprite animations and configure different sizes. Collaborated with a team utilizing proper software practices to build.',
   },
   {
-    img: snakeGame,
+    img: images.snakeImages[0],
     title: 'Snake Server/Client Game',
     details: 'C# | .NET MAUI',
-    images: [snake1, snake2, snake3],
+    images: images.snakeImages,
     description: [
       'Online Multiplayer game of Snake with a server and game client. Collaborated with a friend to design the server and client architecture for this game utilizing the TCP/IP protocol.',
       'It’s a cross platform game given Microsoft’s .NET MAUI framework. Utilizes parallel-computing/multi-threading so it can handle multiple concurrent players. The server provides editable modular game settings as well as different game modes.',
@@ -36,10 +37,10 @@ const data = [
     // 'Online Multiplayer game of Snake with a server and game client. Collaborated with a friend to design the server and client architecture for this game utilizing the TCP/IP protocol. It’s a cross platform game given Microsoft’s .NET MAUI framework. Utilizes parallel-computing/multi-threading so it can handle multiple concurrent players. The server provides editable modular game settings as well as different game modes.',
   },
   {
-    img: timeManagementApp,
+    img: images.timeManagementImages[0],
     title: 'Time Management Suite',
     details: 'JavaScript | HTML | CSS',
-    images: [snake1, snake2, snake3],
+    images: images.timeManagementImages,
     description: [
       'Provides user with a timer, a music selection, and a complete to-do list to stay productive.',
       'Enhance productivity by providing users with a medium of organizing their tasks and marking them complete as they go.',
@@ -48,11 +49,14 @@ const data = [
     // 'Provides user with a timer, a music selection, and a complete to-do list to stay productive. Enhance productivity by providing users with a medium of organizing their tasks and marking them complete as they go. Provides users a timer they can set to stay on task as well as some study music playing options. Utilized local storage to keep progress and save the user’s tasks. Hosted through Replit',
   },
   {
-    img: spreadsheet,
+    img: images.spreadsheetImages[0],
     title: 'Spreadsheet Application',
     details: 'C# | .NET MAUI',
-    images: [snake1, snake2, snake3],
-    description: ['testing'],
+    images: images.spreadsheetImages,
+    description: [
+      'Allows users to load, save and edit their spreadsheets while also providing an assortment of options in computing and laying out their data like the use of formulas and complex functions.',
+      'This is a cross platform application built using Microsoft’s .NET MAUI framework. The markup language used was XAML and C# for the rest of the backend.',
+    ],
   },
 ];
 
