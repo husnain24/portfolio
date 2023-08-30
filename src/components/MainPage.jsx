@@ -29,8 +29,8 @@ const MainPage = () => {
             problems and finding innovative solutions. Beyond my coding
             endeavors, I love playing sports and enjoy the outdoors. Whether
             you're here to explore my projects or get to know be a bit more,
-            feel free to connect with me through my social channels or the
-            contact section below.
+            feel free to connect with me through my socials or the contact
+            section below.
           </h2>
           <div className='flex justify-between pt-6 pl-9 max-w-[200px] w-full'>
             <a
