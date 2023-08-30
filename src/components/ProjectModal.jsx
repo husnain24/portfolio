@@ -62,10 +62,14 @@ const ProjectModal = ({
             )}
           </>
         </div>
-        <div className='mt-4 text-xl'>
+        <div className='mt-4 text-base lg:text-xl'>
           <ul>
             {description.map((text, i) => {
-              return <li key={i}>{text}</li>;
+              return (
+                <li className='mt-2' key={i}>
+                  {text}
+                </li>
+              );
             })}
           </ul>
         </div>
