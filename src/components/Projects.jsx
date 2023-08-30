@@ -19,11 +19,14 @@ const data = [
     details: 'C++ | QT Creator',
     images: images.spriteEditorImages,
     description: [
-      'Allows users to load, save and edit the sprite pixel art while also providing them with an assortment of drawing tools.',
+      'This application allows users to load, save and edit the sprite pixel art while also providing them with an assortment of drawing tools.',
       'Also allows them to preview their sprite animations and configure different sizes.',
-      'Collaborated with a team utilizing proper software practices to build.',
+      'Collaborated with a team utilizing proper software practices like the Agile methodology.',
     ],
-    // 'Allows users to load, save and edit the sprite pixel art while also providing them with an assortment of drawing tools. Also allows them to preview their sprite animations and configure different sizes. Collaborated with a team utilizing proper software practices to build.',
+    link: [
+      'https://github.com/husnain24/Productivity-App',
+      'https://productivity-app.splash23.repl.co/',
+    ],
   },
   {
     img: images.snakeImages[0],
@@ -34,7 +37,7 @@ const data = [
       'Online Multiplayer game of Snake with a server and game client. Collaborated with a friend to design the server and client architecture for this game utilizing the TCP/IP protocol.',
       'It’s a cross platform game given Microsoft’s .NET MAUI framework. Utilizes parallel-computing/multi-threading so it can handle multiple concurrent players. The server provides editable modular game settings as well as different game modes.',
     ],
-    // 'Online Multiplayer game of Snake with a server and game client. Collaborated with a friend to design the server and client architecture for this game utilizing the TCP/IP protocol. It’s a cross platform game given Microsoft’s .NET MAUI framework. Utilizes parallel-computing/multi-threading so it can handle multiple concurrent players. The server provides editable modular game settings as well as different game modes.',
+    link: ['none'],
   },
   {
     img: images.timeManagementImages[0],
@@ -46,7 +49,7 @@ const data = [
       'Enhance productivity by providing users with a medium of organizing their tasks and marking them complete as they go.',
       'Provides users a timer they can set to stay on task as well as some study music playing options. Utilized local storage to keep progress and save the user’s tasks. Hosted through Replit',
     ],
-    // 'Provides user with a timer, a music selection, and a complete to-do list to stay productive. Enhance productivity by providing users with a medium of organizing their tasks and marking them complete as they go. Provides users a timer they can set to stay on task as well as some study music playing options. Utilized local storage to keep progress and save the user’s tasks. Hosted through Replit',
+    link: ['none'],
   },
   {
     img: images.spreadsheetImages[0],
@@ -54,9 +57,10 @@ const data = [
     details: 'C# | .NET MAUI',
     images: images.spreadsheetImages,
     description: [
-      'Allows users to load, save and edit their spreadsheets while also providing an assortment of options in computing and laying out their data like the use of formulas and complex functions.',
-      'This is a cross platform application built using Microsoft’s .NET MAUI framework. The markup language used was XAML and C# for the rest of the backend.',
+      'Provides users spreadsheet functionality like saving text and numbers while also providing an assortment of options in computing and organizing their data like the use of formulas and complex functions.',
+      'Allows user to load, save, and edit their spreadsheets under the .ssp file extension. This is a cross platform application built using Microsoft’s .NET MAUI framework. ',
     ],
+    link: ['none'],
   },
 ];
 
@@ -97,6 +101,7 @@ const Projects = () => {
         details={modalData.details}
         images={modalData.images}
         description={modalData.description}
+        link={modalData.link}
       />
     </div>
   );

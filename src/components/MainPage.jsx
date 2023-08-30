@@ -10,15 +10,6 @@ const MainPage = () => {
         alt=''
       />
       <div className='flex flex-col  items-center justify-center w-full h-screen absolute top-0 left-0 lg:items-start'>
-        {/* <div className='w-[200px] h-[200px] flex items-center justify-center pt-16'>
-          <div className='border border-white rounded-full overflow-hidden w-[200px] h-[200px]'>
-            <img
-              src={profilePic}
-              alt=''
-              className='object-cover w-full h-full'
-            />
-          </div>
-        </div> */}
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
           <div className='w-[200px] h-[200px] flex items-center justify-center pb-16 lg:ml-9'>
             <div className='border border-white rounded-full overflow-hidden w-[200px] h-[200px]'>

@@ -8,6 +8,7 @@ const ProjectModal = ({
   details,
   images,
   description,
+  link,
 }) => {
   if (!isOpen) return null;
 
@@ -34,19 +35,40 @@ const ProjectModal = ({
             </div>
           ))}
         </Carousel>
-        <div className='mt-4'>
+        <div className='mt-4 flex justify-between '>
           <p className='modal-details text-gray-600'>{`Technologies: ${details}`}</p>
+          <>
+            {title == 'Time Management Suite' ? (
+              <div className='flex justify-center align-middle gap-2'>
+                <button className='bg-blue-500 hover:bg-blue-700 text-white text-sm font-semibold py-0.5 px-1 rounded'>
+                  <a
+                    href='https://github.com/husnain24/Productivity-App'
+                    target='_blank'
+                  >
+                    Github
+                  </a>
+                </button>
+                <button className='bg-blue-500 hover:bg-blue-700 text-white font-semibold py-0.5 px-1 rounded'>
+                  <a
+                    href='https://productivity-app.splash23.repl.co/'
+                    target='_blank'
+                  >
+                    Live
+                  </a>
+                </button>
+              </div>
+            ) : (
+              <></>
+            )}
+          </>
         </div>
         <div className='mt-4 text-xl'>
           <ul>
-            {description.map((text) => {
-              return <li>{text}</li>;
+            {description.map((text, i) => {
+              return <li key={i}>{text}</li>;
             })}
           </ul>
         </div>
-        {/* <div className='mt-4 text-xl'>
-          <p className='text-gray-800'>{description}</p>
-        </div> */}
       </div>
     </div>
   );
