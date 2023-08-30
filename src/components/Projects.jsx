@@ -19,9 +19,8 @@ const data = [
     details: 'C++ | QT Creator',
     images: images.spriteEditorImages,
     description: [
-      'This application allows users to load, save and edit the sprite pixel art while also providing them with an assortment of drawing tools.',
-      'Also allows them to preview their sprite animations and configure different sizes.',
-      'Collaborated with a team utilizing proper software practices like the Agile methodology.',
+      'This application allows users to load, save and edit their sprite pixel art while also providing them with an assortment of drawing tools. It also allows them to preview their sprite animations and create art of different sizes.',
+      'This project is a testament to effective teamwork, as we collectively implemented the Agile and adhered to industry best practices. The result is an application that blends technological sophistication with intuitive user experience, offering a comprehensive platform for sprite art and animation exploration.',
     ],
     link: [
       'https://github.com/husnain24/Productivity-App',
@@ -34,8 +33,8 @@ const data = [
     details: 'C# | .NET MAUI',
     images: images.snakeImages,
     description: [
-      'Online Multiplayer game of Snake with a server and game client. Collaborated with a friend to design the server and client architecture for this game utilizing the TCP/IP protocol.',
-      'It’s a cross platform game given Microsoft’s .NET MAUI framework. Utilizes parallel-computing/multi-threading so it can handle multiple concurrent players. The server provides editable modular game settings as well as different game modes.',
+      'This is an online multiplayer Snake Game built off of the original game complete with a dedicated server and a game client, a joint effort between my partner and me. We employed C# and .NET MAUI to architect both components, focusing on the TCP/IP protocol for communication.',
+      "Operating across platforms, thanks to Microsoft's .NET MAUI framework, the game capitalizes on parallel computing and multi-threading to ensure smooth gameplay, accommodating multiple players concurrently. Notably, the server offers adjustable modular game settings and diverse game modes to enrich the gaming experience.",
     ],
     link: ['none'],
   },
@@ -45,9 +44,8 @@ const data = [
     details: 'JavaScript | HTML | CSS',
     images: images.timeManagementImages,
     description: [
-      'Provides user with a timer, a music selection, and a complete to-do list to stay productive.',
-      'Enhance productivity by providing users with a medium of organizing their tasks and marking them complete as they go.',
-      'Provides users a timer they can set to stay on task as well as some study music playing options. Utilized local storage to keep progress and save the user’s tasks. Hosted through Replit',
+      'This is a productivity suite app that blends functionality and user experience. It offers a trio of essential tools: a customizable timer, a curated selection of music, and a feature-rich to-do list.',
+      'This suite serves as an organizational hub, encouraging users to structure their tasks efficiently and track progress as they navigate their goals. With a focus on enhancing productivity, the timer function keeps users on track, while the array of study music options creates an immersive work environment. Leveraging the capabilities of local storage, user progress and tasks are saved, making it a better experience across sessions.',
     ],
     link: ['none'],
   },
@@ -57,8 +55,8 @@ const data = [
     details: 'C# | .NET MAUI',
     images: images.spreadsheetImages,
     description: [
-      'Provides users spreadsheet functionality like saving text and numbers while also providing an assortment of options in computing and organizing their data like the use of formulas and complex functions.',
-      'Allows user to load, save, and edit their spreadsheets under the .ssp file extension. This is a cross platform application built using Microsoft’s .NET MAUI framework. ',
+      'Introducing a user-friendly spreadsheet application designed to help you manage your data effortlessly. This app offers all the tools you need to input and save text and numbers, along with a variety of options to perform calculations and better organize your information using formulas and functions.',
+      "You can easily create, edit, and save your spreadsheets using the .ssp file format. This application works on different devices thanks to Microsoft's .NET MAUI framework, ensuring a consistent experience across platforms. Whether you're new to spreadsheets or a seasoned user, this app simplifies data management, making it accessible and convenient for all.",
     ],
     link: ['none'],
   },
