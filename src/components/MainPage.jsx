@@ -32,11 +32,20 @@ const MainPage = () => {
           <h1 className='sm:text-5xl text-4xl pl-9 font-bold text-white'>
             I'm Husnain Ahmad
           </h1>
-          <h2 className='sm:text-xl text-2xl pt-4 pl-9 text-white'>
-            I'm a passionate programmer and here's my portfolio!
+          <h2 className='sm:text-xl text-xl pt-4 pl-9 text-white'>
+            Welcome to my digital space! I'm a dedicated programmer currently
+            pursuing a degree in Computer Science. I enjoy solving complex
+            problems and finding innovative solutions. Beyond my coding
+            endeavors, I love playing sports and enjoy the outdoors. Whether
+            you're here to explore my projects or get to know be a bit more,
+            feel free to connect with me through my social channels or the
+            contact section below.
           </h2>
           <div className='flex justify-between pt-6 pl-9 max-w-[200px] w-full'>
-            <a href='https://www.youtube.com/' target='_blank'>
+            <a
+              href='https://www.linkedin.com/in/husnainahmad24'
+              target='_blank'
+            >
               <FaLinkedinIn
                 size={25}
                 color='white'
@@ -44,11 +53,11 @@ const MainPage = () => {
               />
             </a>
 
-            <a href='https://www.youtube.com/' target='_blank'>
+            <a href='https://github.com/husnain24' target='_blank'>
               <FaGithub size={25} color='white' className='cursor-pointer' />
             </a>
 
-            <a href='https://www.youtube.com/' target='_blank'>
+            <a href='https://www.instagram.com/husnain_03/' target='_blank'>
               <FaInstagram size={25} color='white' className='cursor-pointer' />
             </a>
           </div>
