@@ -19,7 +19,7 @@ const data = [
   },
   {
     img: images.mobileDrawingApp[0],
-    title: 'Android Drawing App',
+    title: 'Full Stack Android Drawing App',
     details: 'Kotlin | C++ | Firebase | Android Studio',
     images: images.mobileDrawingApp,
     description: [
@@ -28,6 +28,19 @@ const data = [
     ],
     link: [
       'https://github.com/husnain24/AndroidDrawingApp',
+    ],
+  },
+  {
+    img: images.spriteEditorImages[0],
+    title: 'Sprite Editor App',
+    details: 'C++ | QT Creator',
+    images: images.spriteEditorImages,
+    description: [
+      'This application allows users to load, save and edit their sprite pixel art while also providing them with an assortment of drawing tools. It also allows them to preview their sprite animations and create art of different sizes.',
+      'This project is a testament to effective teamwork, as we collectively implemented the Agile and adhered to industry best practices. The result is an application that blends technological sophistication with intuitive user experience, offering a comprehensive platform for sprite art and animation exploration.',
+    ],
+    link: [
+      'none',
     ],
   },
   {
