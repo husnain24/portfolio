@@ -43,11 +43,9 @@ const MainPage = () => {
                 className='cursor-pointer'
               />
             </a>
-
             <a href='https://github.com/husnain24' target='_blank'>
               <FaGithub size={25} color='white' className='cursor-pointer' />
             </a>
-
             <a href='https://www.instagram.com/husnain_03/' target='_blank'>
               <FaInstagram size={25} color='white' className='cursor-pointer' />
             </a>

@@ -2,7 +2,7 @@ import WorkItem from './WorkItem';
 
 const data = [
   {
-    date: 'Aug 2023-Current',
+    date: 'Aug 2023-Dec 2023, Aug 2024-Current',
     title: 'Teaching Assistant | University of Utah',
     location: 'Salt Lake City, Utah',
     details:
@@ -21,13 +21,6 @@ const data = [
     location: 'Salt Lake City, Utah',
     details:
       'Conducted research in the realm of Natural Language Processing (NLP), focusing on the creation of a dataset for Natural Language Inference (NLI) centered around Charts. Used prompt engineering transforming Chart QA inquiries into refined NLI statements through ChatGPT. Employed Python and harnessed libraries such as Pandas to process and curate the dataset.',
-  },
-  {
-    date: 'Nov 2018-Mar 2021',
-    title: 'Youth Sports Official | Salt Lake County',
-    location: 'Salt Lake City, Utah',
-    details:
-      'I was a referee here for youth sports. Specifically the Jr. Jazz program which is an organized youth basketball program. Had to oversee and manage a large group of people in doing this job. Required management as well as collaborative skills in working together to officiate each game.',
   },
 ];
 

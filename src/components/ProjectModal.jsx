@@ -38,25 +38,30 @@ const ProjectModal = ({
         <div className='mt-4 flex justify-between '>
           <p className='modal-details text-gray-600'>{`Technologies: ${details}`}</p>
           <>
-            {title == 'Time Management Suite' ? (
+            {link[0] !== 'none' ? (
               <div className='flex justify-center align-middle gap-2'>
-                <button className='bg-blue-500 hover:bg-blue-700 text-white text-sm font-semibold py-0.5 px-1 rounded'>
-                  <a
-                    href='https://github.com/husnain24/Productivity-App'
-                    target='_blank'
-                  >
-                    Github
-                  </a>
-                </button>
+              <button className='bg-blue-500 hover:bg-blue-700 text-white text-sm font-semibold py-0.5 px-1 rounded'>
+                <a
+                  href={link[0]}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Github
+                </a>
+              </button>
+              
+              {link.length > 1 && (
                 <button className='bg-blue-500 hover:bg-blue-700 text-white font-semibold py-0.5 px-1 rounded'>
                   <a
-                    href='https://productivity-app.splash23.repl.co/'
+                    href={link[1]}
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
                     Live
                   </a>
                 </button>
-              </div>
+              )}
+            </div>
             ) : (
               <></>
             )}
